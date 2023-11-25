@@ -5,6 +5,7 @@ const Courses = () => {
     { grade: '9th Grade', course: 'Course A' },
     { grade: '10th Grade', course: 'Course B' },
     { grade: '11th Grade', course: 'Course C' },
+    { grade: '12th Grade', course: 'Course D'}
     // Add more courses as needed
   ];
 
