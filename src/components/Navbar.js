@@ -11,11 +11,11 @@ const Navbar = () => {
           <img src={logo} alt="logo" width="30" height="auto" className="d-inline-block align-text-top" />
           <span className="ms-2 fw-bold">Arham Nasir</span>
         </div>
-
-        <div className="d-flex align-items-center">
-          <NavLink to='/' className="link me-4 me-lg-5">Home</NavLink>
-          <NavLink to='/courses' className="link me-4 me-lg-5">Courses</NavLink>
-          <NavLink to='/projects' className="link me-4 me-lg-5">Projects</NavLink>
+        <div className="">
+          <NavLink to='/' className="link me-5">Home</NavLink>
+          <NavLink to='/courses' className="link me-5">Courses</NavLink>
+          <NavLink to='/projects' className="link">Projects</NavLink>
+          <NavLink to='/certificates' className="link">Certificates</NavLink>
         </div>
 
         {/* 
